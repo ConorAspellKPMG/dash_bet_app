@@ -1,0 +1,11 @@
+away_team_odds,draw_odds,home_team_odds,away_amount,away_site,away_team,draw_amount,draw_site,home_amount,home_site,home_team,league,home_profit,away_profit,draw_profit,stake,home_bet,draw_bet,away_bet,home_return,away_return,draw_return
+2.28,3.6,3.54,0.4397,marathonbet,Manchester United,0.2778,matchbook,0.2825,marathonbet,AC Milan,soccer_uefa_europa_league,1.0,1.0026,1,0,0,0,0,0,0,0
+3.88,4.0,2.05,0.2577,marathonbet,Real Sociedad,0.25,matchbook,0.4923,marathonbet,Barcelona,soccer_spain_la_liga,1.0091,1.0,1,0,0,0,0,0,0,0
+2.04,3.7,4.2,0.4916,marathonbet,Southampton,0.2703,marathonbet,0.2381,skybet,Bournemouth,soccer_fa_cup,1.0,1.0029,1,0,0,0,0,0,0,0
+3.64,3.4,2.38,0.2747,marathonbet,Stevenage,0.2941,marathonbet,0.4312,skybet,Carlisle United,soccer_england_league2,1.0262,1.0,1,0,0,0,0,0,0,0
+1.88,4.1,4.6,0.5387,marathonbet,Real Madrid,0.2439,marathonbet,0.2174,matchbook,Celta Vigo,soccer_spain_la_liga,1.0,1.0128,1,0,0,0,0,0,0,0
+2.83,3.48,2.8,0.3534,marathonbet,Rangers,0.2874,marathonbet,0.3593,skybet,Celtic,soccer_spl,1.006,1.0,1,0,0,0,0,0,0,0
+1.92,3.6,5.0,0.5222,marathonbet,Everton,0.2778,unibet,0.2,ladbrokes,Crystal Palace,soccer_epl,1.0,1.0027,1,0,0,0,0,0,0,0
+1.36,6.05,10.25,0.7371,skybet,Manchester City,0.1653,marathonbet,0.0976,marathonbet,Everton,soccer_fa_cup,1.0,1.0025,1,0,0,0,0,0,0,0
+2.81,3.68,2.72,0.3559,marathonbet,Shakhtar Donetsk,0.2717,marathonbet,0.3724,matchbook,Roma,soccer_uefa_europa_league,1.0129,1.0,1,0,0,0,0,0,0,0
+4.6,3.7,1.97,0.2174,marathonbet,Werder Bremen,0.2703,matchbook,0.5123,marathonbet,VfL Wolfsburg,soccer_germany_bundesliga,1.0093,1.0,1,0,0,0,0,0,0,0
