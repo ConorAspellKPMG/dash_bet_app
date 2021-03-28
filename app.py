@@ -45,7 +45,8 @@ app.layout = html.Div(children=[
                           label='Show all data',
                           labelPosition='top'
                           ),
-    html.H4(children='Fulham odds'),
+    html.H4(children='Arbitrage Bets'),
+    html.H3(children='Edit the "Stake" Column to see exact bets and returns'),
     html.Div([
         html.P("Football Odds",
                               style={'margin-top':'1rem',
@@ -60,13 +61,13 @@ app.layout = html.Div(children=[
                       ], style={'display': 'none'},
                               id='data-table-container'
                               ),
-    html.Div(children=[
-    html.H4(children='Recommended Bets'),
-    dcc.Dropdown(id='dropdown', options=[
-        {'label': i, 'value': i} for i in df2.home_team.unique()
-    ], multi=True, placeholder='Filter by game...'),
-    html.Div(id='table-container')
-    ]),
+    # html.Div(children=[
+    # html.H4(children='Recommended Bets'),
+    # dcc.Dropdown(id='dropdown', options=[
+    #     {'label': i, 'value': i} for i in df2.home_team.unique()
+    # ], multi=True, placeholder='Filter by game...'),
+    # html.Div(id='table-container')
+    # ]),
 
     html.Div([
         dash_table.DataTable(
@@ -116,15 +117,15 @@ def generate_table_data_container(showRegions):
     else:
         return {'display': 'none'}
 
-@app.callback(
-    dash.dependencies.Output('table-container', 'children'),
-    [dash.dependencies.Input('dropdown', 'value')])
-def display_table(dropdown_value):
-    if dropdown_value is None:
-        return generate_table(df2)
+# @app.callback(
+#     dash.dependencies.Output('table-container', 'children'),
+#     [dash.dependencies.Input('dropdown', 'value')])
+# def display_table(dropdown_value):
+#     if dropdown_value is None:
+#         return generate_table(df2)
 
-    dff = df2[df2.home_team.str.contains('|'.join(dropdown_value))]
-    return generate_table(dff)
+#     dff = df2[df2.home_team.str.contains('|'.join(dropdown_value))]
+#     return generate_table(dff)
 
 if __name__ == '__main__':
     app.run_server(debug=True)
